@@ -11,7 +11,8 @@ import UIKit
 class DetailContactsViewController: UITableViewController {
     
     var persons: [Person]!
-    let fontSize:CGFloat = 18
+    
+    private let fontSize:CGFloat = 18
     
     override func viewDidLoad() {
         super.viewDidLoad()
